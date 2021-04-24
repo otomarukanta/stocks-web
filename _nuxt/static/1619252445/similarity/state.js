@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fstocks-web\u002F_nuxt\u002Fstatic\u002F1619252445",layout:"default",error:a,serverRendered:true,routePath:"\u002Fsimilarity",config:{_app:{basePath:"\u002Fstocks-web\u002F",assetsPath:"\u002Fstocks-web\u002F_nuxt\u002F",cdnURL:a}}}}(null));
