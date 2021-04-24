@@ -38,7 +38,7 @@ export default {
 
       this.isLoading = true
 
-      fetch('/api/codes.json')
+      fetch('/stocks-web/api/codes.json')
         .then(res => res.json())
         .then(res => {
           this.codes = res.codes
@@ -49,7 +49,7 @@ export default {
         .finally(() => (this.isLoading = false))
     },
     inputCode (val) {
-      fetch('/api/similarities/' + val + '.json')
+      fetch('/stocks-web/api/similarities/' + val + '.json')
         .then(res => res.json())
         .then(res => {
           this.simCodes = res.codes
